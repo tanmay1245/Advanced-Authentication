@@ -70,7 +70,7 @@ router.post("/forgotpassword", (req, res) => {
 
         const resetToken = user.getRestPasswordToken();
         // TODO Url is hardcoded
-        const resetUrl = `http://localhost:3001/passwordreset/${resetToken}`;
+        const resetUrl = `${process.env.CLIENT_URL}/passwordreset/${resetToken}`;
 
         var message = `
             <p>Hello ${user.username}</p>
