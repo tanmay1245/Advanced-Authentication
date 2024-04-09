@@ -124,7 +124,7 @@ const Register = () => {
                         </div>
 
                         <div className="flex justify-center">
-                            <span className="text-white">Already have an account ?
+                            <span className="text-white">Dont have an account ?
                                 <Link to="/register" className="ms-1 font-medium text-[#5873A3] hover:text-[#495f86]">Register</Link>
                             </span>
                         </div>
